@@ -8,6 +8,12 @@ This contains all GIT hooks we use to develop for Cloudrexx. Currently this incl
 
 This list will probably get longer over time.
 
+## Prerequisites
+Obviously, this needs GIT to be installed. In addition here's a list of
+requirements by the linters:
+- PHP Linter: Either PHP or Docker is required, otherwise this linter is disabled
+- Commit message linter: Requires Docker
+
 ## Installation
 Note: Before you install the templates you need to have docker and git installed on your computer.
 
